@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    height:80px;
+    padding: 24px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #F2EFE9;
+}
+
+header img{
+    height: 100%;
+    float: left;
+    position: relative;
+}
+header h1{
+    float: left;
+    line-height: 32px;
+    padding-left: 16px;
+}
+main {
+    width: 100%;
+    height: calc(100%-80px);
+    background-color: blanchedalmond;
+}
+main .options{
+    height: 80px;
+    width: 100%;
+    background-color: #F2D7D5;
+    padding: 24px;
+    box-sizing: border-box;
+    text-align: right;
+}
+.options a{
+    line-height: 32px;
+    margin-left: 8px;
+    font-size: 20px;
+}
+.options a:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+main .items{
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+main hr{
+    margin-bottom: 32px;
+}
+.items .item{
+    width: calc((100% / 4) - 80px);
+    height: 296px;
+    float:left;
+    position: relative;
+    margin: 0 40px 40px 40px;
+}
+.item .img{
+    height: 60%;
+    width: 100%;
+    background-image: url(img/cake.jpg);
+    background-repeat: no-repeat;
+    background-position: center 70%;
+    background-size: cover;
+}
+.item h3, .item p{
+    padding: 8px;
+}
+.item p{
+    font-size: 16px;
+}
+.top{
+    width: 100%;
+    text-align: right;
+    padding: 24px;
+    box-sizing: border-box;
+    background-color: #F4DDBF;
+    float: left;
+    position: relative;
+}
+.top a{
+    font-size: 16px;
+}
