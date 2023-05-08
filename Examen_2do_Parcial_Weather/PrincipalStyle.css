@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height:96px;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+header >a >.Logo{
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+header >h1 {
+    float: left;
+    line-height: 56px;
+    padding-left: 16px;
+    font-size: 40px;
+}
+
+header >h3 {
+    float: right;
+    line-height: 56px;
+    padding-right: 16px;
+    font-size: 24px;
+}
+
+main {
+    width: 100%;
+    height: calc(100% - 96px);
+    background-color: #1877F2;
+}
+
+main .Items_Weather{
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+.Items_Weather .Item{
+    width: calc((100% / 4) - 80px);
+    height: 360px;
+    float:left;
+    position: relative;
+    margin: 0 40px 40px 40px;
+    padding-top: 32px;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.Item .Flags{
+    margin: 0 auto;
+    height: 47%;
+    width: 60%;
+    padding: 16px;
+}
+
+.Item h2{
+    padding: 8px;
+    font-size: 40px;
+}
+
+.Item p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Searching{
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    padding-top: 0;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+.Searching .Txt_Search{
+    width: 60%;
+    height: 80px;
+    float:left;
+    position: relative;
+    padding-top: 25px;
+    padding-left: 16px;
+    margin: 0 0px 0px 40px;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: #FFFFFF;
+    font-size: 23px;
+    color: #A7A7A7;
+}
+
+.Searching .Button{
+    width: 13%;
+    height: 80px;
+    float:left;
+    position: relative;
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-color:#004AAD;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Searching .Text{
+    width: calc(27% - 80px);
+    height: 80px;
+    float:left;
+    position: relative;
+    padding-top: 25px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.img{
+    width: 100%;
+    height: 328px;
+    padding: 24px;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+}
+
+.img .Ubication_Maps{
+    width: calc(100% - 80px);
+    height: 100%;
+    float:left;
+    position: relative;
+    margin: 0 40px 40px 40px;
+    padding-top: 24px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
